@@ -37,13 +37,12 @@ The MERN Stack Store Rating App allows users to sign up, log in, view stores, an
 2. **Install Dependencies**:
    - Install backend dependencies:
      ```bash
-     cd backend_code
+     cd backend
      npm install
      ```
    - Install frontend dependencies:
      ```bash
-     cd frontend_code
-     cd vite-project
+     cd frontend
      npm install
      ```
 
@@ -68,11 +67,11 @@ The MERN Stack Store Rating App allows users to sign up, log in, view stores, an
     - Node.js installed (v14 or later recommended).
     - MongoDB installed locally or a MongoDB Atlas account.
     - npm installed.
-6. ## LoginCredentials:
-   ```bash
-    admin: admintrial@gmail.com
-    pass: Admin@32
-     ```
+6. ## Validations:
+    - The name length should be 60 characters max and 20 characters min.
+   - The Address length should be 400 characters max.
+    - The password length max 16 and 8 min, it should have at least 1  upper, and 1 special character in it.
+    - Email address validation should be there in the email field.
    
 ## Contributing
 
